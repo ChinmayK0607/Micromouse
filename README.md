@@ -1,5 +1,5 @@
 # Micromouse
-This is the official repository for the Micromouse project as a part of the Summer Internship project at IvLabs, VNIT Nagpur
+This is the official repository for the Micromouse project as a part of team project at IvLabs, VNIT Nagpur
 
 ## Objectives
 The objectives of the summer internship were to create a compact robot that could autonomously solve any given maze. 
