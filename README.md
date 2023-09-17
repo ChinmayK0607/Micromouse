@@ -1,5 +1,5 @@
 # Micromouse
-This is the official repository for the Micromouse project as a part of team project at IvLabs, VNIT Nagpur
+This is the official repository for the Micromouse project at IvLabs, VNIT Nagpur
 
 ## Objectives
 The objectives of the summer internship were to create a compact robot that could autonomously solve any given maze. 
@@ -58,6 +58,12 @@ The flood fill is an optimistic search algorithm that can help in solving mazes,
 It initially assumes that there are no walls and generates a first maze map using bfs/dfs. A maze map considers the goal as 0 and each preceding cell has value one more than the earlier cell.
 
 Example : ``` current_cell.value() = previous_cell.value()+1 ; ```
+
+Flood fill video:
+
+![Untitled video - Made with Clipchamp (4)](https://github.com/ChinmayK0607/Micromouse/assets/114411195/649d1578-6378-4626-875c-e67fcfbe0ddf)
+
+
 
 The mouse then runs once to generate a maze map according to intial run.
 It then backtracks using a different path and then decides the shortest path based on these two runs.
