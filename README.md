@@ -16,8 +16,11 @@ In the initial first weeks, we worked on implementing the software algorithms. W
 4.Flood Fill
 
 Code for each of the above mentioned can be found in ```Algorithmic Implementations``` Folder.
+
 After this, we built a maze using corrugated sheets and started working on the hardware parts inclulding sensor testing and assembly.
-The detailed hardware breakdown is mentioned below. Initially we had thought about using PID for turning and other operations, but due to error buildup, 
+The detailed hardware breakdown is mentioned below. 
+
+Initially we had thought about using PID for turning and other operations, but due to error buildup, 
 we went with using sensor data for precise turning, at the end of it, we could achieve the objectives within stipulated time.
 Testing included 5 different mazes.
 
