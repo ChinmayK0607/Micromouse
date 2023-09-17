@@ -56,6 +56,7 @@ How it works:
 The flood fill is an optimistic search algorithm that can help in solving mazes, it simulates water flooding a maze and reaching the goal and thus the name. 
 
 It initially assumes that there are no walls and generates a first maze map using bfs/dfs. A maze map considers the goal as 0 and each preceding cell has value one more than the earlier cell.
+
 Example : ``` current_cell.value() = previous_cell.value()+1 ; ```
 
 The mouse then runs once to generate a maze map according to intial run.
