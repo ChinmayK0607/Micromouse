@@ -27,7 +27,7 @@ Testing included 5 different mazes.
 Image of the final bot:
 
 
-![image](https://github.com/ChinmayK0607/Micromouse/assets/114411195/c8f9f630-778a-4c0d-9682-ece578b2af9c)
+
 
 ## Hardware Explanation
 Here is a both high level and low level diagram for understanding of the hardware implementation
