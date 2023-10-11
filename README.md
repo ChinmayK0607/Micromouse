@@ -9,24 +9,43 @@ In the initial first weeks, we worked on implementing the software algorithms. W
 
 1.Wall Following
 
+![unnamed](https://github.com/ChinmayK0607/Micromouse/assets/114411195/c75196c7-b359-4f6c-813e-1bdc06cc3916)
+
+
+
 2.BFS
+
+![unnamed (2)](https://github.com/ChinmayK0607/Micromouse/assets/114411195/5c1c0090-bf98-4234-b390-1e8a5d37e98b)
+
 
 3.DFS
 
+![unnamed (1)](https://github.com/ChinmayK0607/Micromouse/assets/114411195/9875c933-78fc-4c69-aba6-03c77bc93ab8)
+
+
 4.Flood Fill
+
+![unnamed (3)](https://github.com/ChinmayK0607/Micromouse/assets/114411195/fdd92060-7501-4717-bc51-6b367a332059)
+
+
 
 Code for each of the above mentioned can be found in ```Algorithmic Implementations``` Folder.
 
 After this, we built a maze using corrugated sheets and started working on the hardware parts inclulding sensor testing and assembly.
+
+
+![image](https://github.com/ChinmayK0607/Micromouse/assets/114411195/ae7f2db2-d7bf-4d09-bff6-167788ed4e04)
+
+
 The detailed hardware breakdown is mentioned below. 
 
-Initially we had thought about using PID for turning and other operations, but due to error buildup, 
-we went with using sensor data for precise turning, at the end of it, we could achieve the objectives within stipulated time.
+We went with using sensor data for precise turning, and we were able to solve the maze.
 Testing included 5 different mazes.
 
 Image of the final bot:
 
 
+![image](https://github.com/ChinmayK0607/Micromouse/assets/114411195/ec0dbd74-119c-4425-928d-b187f86c4505)
 
 
 ## Hardware Explanation
@@ -35,18 +54,20 @@ Here is a both high level and low level diagram for understanding of the hardwar
 
 ![image](https://github.com/ChinmayK0607/Micromouse/assets/114411195/b1fa66ec-f1b0-48fe-924e-58f44655b7bf)
 
-The circuit overall is controlled by the Ardiuno nano. The code for movement and speed control as well for maintaining a particular distance form the wall is uploaded in the Ardiuno nano.
-It analyses the data sent by the motor encoders and calulates the distance covered accordingly. 
-It also reads the
-data from all the three ultrasonic sensors and gives output to the motor so that the bot maintains a particular distance from the wall.
 
-The motor driver recieves the input from the Ardiuno nano and accordingly supplies the signal to the motor so that the motor can perform the required movement.
+The circuit overall is controlled by the Arduino nano. 
 
-The circuit drives it power from a 7.4V LiPo batttery.
+The code for movement and speed control as well for maintaining a particular distance from the wall is uploaded in the Arduino nano.
+It analyzes the data sent by the motor encoders and calculates the distance covered accordingly. 
+
+It also reads the data from all the three ultrasonic sensors and gives output to the motor so that the bot maintains a particular distance from the wall.
+
+The motor driver receives the input from the Arduino nano and accordingly supplies the signal to the motor so that the motor can perform the required movement.
+
+The circuit drives its power from a 7.4V LiPo batttery.
 
 The connections of the circuit are as shown in the circuit digram above.
 
-Link to a detailed breakdown of hardware: https://hackmd.io/yFryJIJRRAq1Xr2IdxVAPA
 
 ## Software Explanation
 
