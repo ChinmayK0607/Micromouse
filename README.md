@@ -2,23 +2,30 @@
 This is the official repository for the Micromouse project at IvLabs, VNIT Nagpur
 
 ## Objectives
-The objectives of the summer internship were to create a compact robot that could autonomously solve any given maze. 
+The objectives of the summer internship were to create a compact( 8 x 8 cm) robot that can autonomously solve and obtain the fastest path for any given maze. 
 
 ## Methodology
-In the initial first weeks, we worked on implementing the software algorithms. We tried a set of algorithms, namely
 
-1.Wall Following
+### Software Implementation
+In the initial weeks, we worked on implementing the maze solving algorithms in python. We implemented and explored a set of algorithms, namely
 
-![unnamed](https://github.com/ChinmayK0607/Micromouse/assets/114411195/c75196c7-b359-4f6c-813e-1bdc06cc3916)
+1.Wall Following:
+    The bot just follows the walls till it reaches the  
+    goal. Not very efficient as it is a brute force approach  and can run into loops 
+    when there are dead ends and for this algorithm to work, the goal has to be in one of the corners .
+
+![unnamed](https://github.com/ChinmayK0607/Micromouse/assets/114411195/c75196c7-b359-4f6c-813e-1bdc06cc3916) =100x200
 
 
 
-2.BFS
+2.BFS:
+    Breadth First Search systematically examines all available nodes at a given level before delving deeper into the tree or graph structure or in this case, the maze.
 
 ![unnamed (2)](https://github.com/ChinmayK0607/Micromouse/assets/114411195/5c1c0090-bf98-4234-b390-1e8a5d37e98b)
 
 
-3.DFS
+3.DFS:
+Depth First Search, on the other hand, delves as deeply as possible into a branch of nodes before backtracking to explore other branches.
 
 ![unnamed (1)](https://github.com/ChinmayK0607/Micromouse/assets/114411195/9875c933-78fc-4c69-aba6-03c77bc93ab8)
 
@@ -29,10 +36,10 @@ In the initial first weeks, we worked on implementing the software algorithms. W
 
 
 
-Code for each of the above mentioned can be found in ```Algorithmic Implementations``` Folder.
+Code for each of the above mentioned algorithms can be found in ```Algorithmic Implementations``` Folder.
 
-After this, we built a maze using corrugated sheets and started working on the hardware parts inclulding sensor testing and assembly.
-
+After this, we built a maze using corrugated sheets ,The dimensions used were 16 x 16 cell.The maze consists of  plus shaped holders that can be used to hold two or more sheets according to requirements.
+Subsequently initiated work on hardware components, which involved tasks such as testing sensors and assembling the necessary equipment.
 
 ![image](https://github.com/ChinmayK0607/Micromouse/assets/114411195/ae7f2db2-d7bf-4d09-bff6-167788ed4e04)
 
